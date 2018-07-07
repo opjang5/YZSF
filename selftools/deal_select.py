@@ -1,0 +1,21 @@
+def deal(select):
+    if select=='心血管内科':
+        return '30'
+    elif select=='神经内科':
+        return '31'
+    elif select=='消化内科':
+        return '32'
+    elif select=='内分泌科':
+        return '33'
+    elif select=='免疫科':
+        return '34'
+    elif select=='呼吸科':
+        return '35'
+    elif select=='肾病内科':
+        return '36'
+    elif select=='血液科':
+        return '37'
+    elif select=='感染内科':
+        return '38'
+    elif select=='过敏反应科':
+        return '39'

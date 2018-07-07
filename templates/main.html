@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YZFZ- home</title>
+<link href="/static/css/style.css" rel='stylesheet' type='text/css' />
+<script src="/static/js/jquery-1.12.4.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pink Contact Form ,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements"./>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!--webfonts-->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic|Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Raleway:400,200,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+</head>
+<body>
+	<h1>NLP ANALYSIS</h1>
+	<div class="login-01">
+			<form action="/nlp/" method="post">
+				<ul>
+					<li class="first">
+						<a href="#" class=" icon user"></a><input type="text" name="nlpwords" value="{{nlpwords}}" class="text" >
+						<div class="clear"></div>
+					</li>
+					<li class="second">
+					<a href="#" class=" icon msg"></a><textarea>{{nlp_content}}</textarea>
+					<div class="clear"></div>
+					</li>
+				</ul>
+			<input type="submit"  value="提交" >
+			<div class="clear"></div>
+		</form>
+		{% csrf_token %}
+		<div></div>
+</div>
+	<!--start-copyright-->
+	</div>
+	<!--//end-copyright-->
+</body>
+</html>
